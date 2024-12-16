@@ -1,0 +1,90 @@
+body{
+    margin:0px;
+    padding:0px;
+    background-color: #DAA520;
+    overflow-x: hidden;
+}
+#main{
+    background-color:white;
+    box-shadow: 10px 5px 45px black;
+    cursor: pointer;
+}
+.main-parent{
+    display:flex;
+    height:100vh;
+    width:100vw;
+    align-items: center;
+    justify-content: center;
+}
+main{
+    background-image: url(page2background.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.first-parent{
+    display:block;
+    border:1px solid black;
+    width:90vw;
+    height:30vh;
+    margin:0px;
+    padding:0px;
+}
+.child-box{
+    display:flex;
+    height:30vh;
+    width:30vw;
+    margin:0px;
+    padding: 0px;
+    border:2px solid black;
+    align-items: center;
+    justify-content: center;
+}
+.common-format{
+    font-size:10vw;
+}
+.second-panel{
+    margin: 0px;
+    padding: 0px;
+    display: flex;
+    height: 15vh;
+    width:100vw;
+    justify-content: center;
+    align-items: center;
+}
+.passion-one-regular {
+    font-family: "Passion One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    cursor: pointer;
+    background-color: #28D855;
+    color:black;
+    border-color:green;
+    font-size: xx-large;
+    visibility:hidden;
+  }
+.header-panel{
+    display:flex;
+    align-items: center;
+    height:15vh;
+    width:100vw;
+    margin: 0px;
+    padding: 0px;
+    background-color: black;
+    font-family: sans-serif;
+    color:white;
+    font-size: xx-large;
+}
+.header-title{
+    cursor: pointer;
+    margin:5vw;
+    text-align: left;
+}
+.anchor-title{
+    text-decoration: none;
+    color:white;   
+}
+.anchor-title:hover{
+    text-decoration: underline;
+    color:white;
+}

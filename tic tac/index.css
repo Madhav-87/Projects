@@ -1,0 +1,73 @@
+body{
+    background-color: white;
+    margin:0px;
+    padding: 0px;
+    font-family: sans-serif;
+}
+.main-box{
+    height:120vh;
+    width:100vw;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url(background.png);
+    background-size: cover;
+    background-position: center;
+}
+.container{
+    margin-top: 100px;
+    display: block;
+    height:60vh;
+    width:60vw;
+    border:1px solid black;
+}
+.box1{
+    height:20vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #3C3C3C;
+    color:white;
+    font-size: xx-large;
+    border-bottom:1px solid white;
+}
+.box2{
+    display: block;
+    height: 20vh;
+    background-color: #DAA520;
+    border-bottom:1px solid white;
+    
+}
+.player-title{
+    font-size: xx-large;
+    color:#0A0A0A;
+    margin-top: 15px;
+}
+.inner-box{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    color:white;
+}
+.input-tag{
+    font-size:x-large;
+    border:2px solid black;
+    width:40vw;
+}
+.input-tag:focus{
+    font-size:x-large;
+    outline:none;
+    border-color:#1877F2
+}
+.play-button{
+    font-size:xx-large;
+    background-color: #DAA520;
+    margin-top:30px;
+    font-weight: 600;
+    color:black;
+    border:none;
+    cursor:pointer;
+}
+.play-button:focus-within{
+    border:2px solid #1877F2;
+}
